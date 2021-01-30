@@ -6,6 +6,7 @@ import cv2 as cv
 
 # cv.waitKey(0)
 
+# Reading videos
 capture = cv.VideoCapture('videos/world.mp4')
 
 while True:
