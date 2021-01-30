@@ -6,7 +6,7 @@ import cv2 as cv
 
 # cv.waitKey(0)
 
-capture = cv.VideoCapture('videos/tmux.mp4')
+capture = cv.VideoCapture('videos/world.mp4')
 
 while True:
     isTrue, frame = capture.read()
